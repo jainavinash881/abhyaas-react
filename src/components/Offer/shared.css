@@ -1,0 +1,99 @@
+/* Main Container */
+.Yoga-main {
+  text-align: center;
+  background: #f9edda;
+  padding: 40px 20px;
+}
+
+.yoga-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page Heading */
+.yoga-heading {
+  font-size: 2.6rem;
+  margin-bottom: 35px;
+  color: #5a3d2b;
+  font-weight: bold;
+}
+
+/* Section that holds all cards */
+.yoga-section {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.yoga-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px;
+  border-radius: 18px;
+
+  /* Frosted card look */
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+
+  /* Soft shadow + hover animation */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.yoga-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.yoga-img {
+  width: 360px;
+  max-width: 100%;
+  border-radius: 14px;
+}
+
+/* Text Section */
+.yoga-text {
+  flex: 1;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.yoga-subheading {
+  font-size: 1.8rem;
+  color: #5a3d2b;
+  margin-bottom: 10px;
+}
+
+.yoga-description {
+  font-size: 1.1rem;
+  color: #4a3729;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .yoga-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .yoga-text {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .yoga-img {
+    width: 85%;
+  }
+}

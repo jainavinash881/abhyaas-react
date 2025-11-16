@@ -1,0 +1,103 @@
+/* Section background */
+.teach-section {
+  padding: 80px 20px;
+  background: #f9edda;
+}
+
+/* Main container (2-column layout) */
+.teach-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Text area */
+.teach-left {
+  flex: 1;
+}
+
+.teach-title {
+  font-size: 42px;
+  font-weight: 500;
+  color: #3c1f17;
+  margin-bottom: 20px;
+}
+
+.teach-subtitle {
+  font-size: 20px;
+  color: #7b5d52;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+/* List grid */
+.teach-list-grid {
+  display: flex;
+  gap: 50px;
+}
+
+/* Bullet list */
+.teach-list {
+  list-style: none;
+  padding: 0;
+}
+
+.teach-list li {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #3c1f17;
+  display: flex;
+  align-items: center;
+}
+
+/* Custom checkmark */
+.teach-list li::before {
+  content: "✓";
+  color: #704035;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Right side yoga image */
+.teach-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.teach-image {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+  .teach-container {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .teach-title {
+    font-size: 32px;
+  }
+
+  .teach-subtitle {
+    font-size: 18px;
+  }
+
+  .teach-list-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .teach-image {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}

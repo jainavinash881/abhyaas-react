@@ -1,0 +1,143 @@
+.contact-wrapper {
+  background: #f9edda;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 32px;
+  color: #5a3128;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* Container for form + map */
+.contact-container {
+  max-width: 850px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* FORM */
+.contact-form {
+  background: #fff;
+  padding: 35px 50px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 620px; /* <–– NEW: form centered and narrower */
+  margin: auto;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #4a281f;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  border: 1.5px solid #d2b8a4;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #fffdfb;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #a5715f;
+  background: #fff8f0;
+  outline: none;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 15px;
+  background: #a5715f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: #7c4c40;
+}
+
+/* ERRORS */
+.error-input {
+  border-color: red !important;
+}
+
+.error-text {
+  color: red;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.status-msg {
+  margin-top: 12px;
+  font-size: 16px;
+  text-align: center;
+  color: #4a281f;
+}
+
+/* MAP */
+.contact-map {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 25px 20px;
+    max-width: 90%;
+  }
+
+  .contact-map {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 26px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+  }
+
+  .contact-btn {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
