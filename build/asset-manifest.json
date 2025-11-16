@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/abhyaas-react/static/css/main.f3779233.css",
+    "main.js": "/abhyaas-react/static/js/main.0e5c68a7.js",
+    "static/js/453.17269afa.chunk.js": "/abhyaas-react/static/js/453.17269afa.chunk.js",
+    "static/media/asmi.png": "/abhyaas-react/static/media/asmi.fc1b008a17c20174ab48.png",
+    "static/media/yoga-ujjayi.png": "/abhyaas-react/static/media/yoga-ujjayi.e858d1ab2e8aaa2a8aaf.png",
+    "static/media/teach.png": "/abhyaas-react/static/media/teach.8fae700dccbb2a550352.png",
+    "static/media/HathYoga.png": "/abhyaas-react/static/media/HathYoga.730b5b59fa61d5c67948.png",
+    "static/media/fa-solid-900.woff2": "/abhyaas-react/static/media/fa-solid-900.8ae0d37556ff1e685de2.woff2",
+    "static/media/fa-brands-400.woff2": "/abhyaas-react/static/media/fa-brands-400.1c5c7716b05754cb4eab.woff2",
+    "static/media/fa-regular-400.woff2": "/abhyaas-react/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
+    "static/media/fa-v4compatibility.woff2": "/abhyaas-react/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
+    "static/media/lotus-center.svg": "/abhyaas-react/static/media/lotus-center.fce2225d6c0f38eae119558403b03f33.svg",
+    "index.html": "/abhyaas-react/index.html",
+    "main.f3779233.css.map": "/abhyaas-react/static/css/main.f3779233.css.map",
+    "main.0e5c68a7.js.map": "/abhyaas-react/static/js/main.0e5c68a7.js.map",
+    "453.17269afa.chunk.js.map": "/abhyaas-react/static/js/453.17269afa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3779233.css",
+    "static/js/main.0e5c68a7.js"
+  ]
+}
