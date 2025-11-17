@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abhyaas-react/static/css/main.f3779233.css",
-    "main.js": "/abhyaas-react/static/js/main.0e5c68a7.js",
+    "main.js": "/abhyaas-react/static/js/main.bc894d17.js",
     "static/js/453.17269afa.chunk.js": "/abhyaas-react/static/js/453.17269afa.chunk.js",
     "static/media/asmi.png": "/abhyaas-react/static/media/asmi.fc1b008a17c20174ab48.png",
     "static/media/yoga-ujjayi.png": "/abhyaas-react/static/media/yoga-ujjayi.e858d1ab2e8aaa2a8aaf.png",
@@ -14,11 +14,11 @@
     "static/media/lotus-center.svg": "/abhyaas-react/static/media/lotus-center.fce2225d6c0f38eae119558403b03f33.svg",
     "index.html": "/abhyaas-react/index.html",
     "main.f3779233.css.map": "/abhyaas-react/static/css/main.f3779233.css.map",
-    "main.0e5c68a7.js.map": "/abhyaas-react/static/js/main.0e5c68a7.js.map",
+    "main.bc894d17.js.map": "/abhyaas-react/static/js/main.bc894d17.js.map",
     "453.17269afa.chunk.js.map": "/abhyaas-react/static/js/453.17269afa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3779233.css",
-    "static/js/main.0e5c68a7.js"
+    "static/js/main.bc894d17.js"
   ]
 }
